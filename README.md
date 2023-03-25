@@ -40,9 +40,9 @@ v prvom riadku sú dve celé čísla = počet riadkov a stĺpcov štvorcovej sie
 každý ďalší riadok popisuje jedno políčko siete, pričom obsahuje buď tri celé čísla,
 alebo tri čísla a ľubovoľný nemedzerový reťazec v tvare:
 
-  **riadok stĺpec počet_tehličiek
+  **riadok stĺpec počet_tehličiek**
   
-  riadok stĺpec počet_tehličiek lampa**
+  **riadok stĺpec počet_tehličiek lampa**
   
 v druhom prípade má dané políčko svoju lampu (lampy sú na začiatku zhasnuté)
 všetky ostatné políčka v ploche sú prázdne bez tehličiek a bez lampy
