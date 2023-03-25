@@ -36,11 +36,8 @@ Metódy:
 
 
 subor má tento formát:
-
 v prvom riadku sú dve celé čísla = počet riadkov a stĺpcov štvorcovej siete
-
 každý ďalší riadok popisuje jedno políčko siete, pričom obsahuje buď tri celé čísla,
-
 alebo tri čísla a ľubovoľný nemedzerový reťazec v tvare:
 
   **riadok stĺpec počet_tehličiek
@@ -48,11 +45,8 @@ alebo tri čísla a ľubovoľný nemedzerový reťazec v tvare:
   riadok stĺpec počet_tehličiek lampa**
   
 v druhom prípade má dané políčko svoju lampu (lampy sú na začiatku zhasnuté)
-
 všetky ostatné políčka v ploche sú prázdne bez tehličiek a bez lampy
-
 parameter pozicia_robota = trojica čísel (riadok, stĺpec, smer), 
-
 kde smer je číslo od 0 do 3 (pre východ, juh, západ, sever
 
 **robot():**
@@ -64,26 +58,21 @@ vráti momentálnu pozíciu robota ako trojicu čísel (riadok, stĺpec, smer)
 
 
 vráti popis plochy, pričom pre každé políčko:
-
 tam, kde je lampa a svieti, znak 'O', kde nesvieti 'o'
-
 inak, kde bol robot '+', kde ešte nebol '.'
 
 **rob(prikazy):**
 
+
 parameter prikazy = postupnosť písmen z 'lpksz' (iné znaky ignoruje)
-
 postupne vykoná príkazy, ak sa niektorý vykonať nedá, 
-
 tento jeden ignoruje a pokračuje ďalšími príkazmi v postupnosti
-
 metóda nič nevracia
 
 **kolko():**
 
 
 vráti dvojicu: počet nerozsvietených políčok s lampou a počet rozsvietených
-
 Napr. pre súbor 'subor1.txt':
 
     4 5
