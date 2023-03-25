@@ -5,18 +5,13 @@ Zadanie skúšky z 21.1.2019 - Robot Light-Bot
 Robot Light-Bot sa veľmi sa podobá na robota Karla:
 
 robot sa pohybuje v štvorcovej sieti, v ktorej sa môžu nachádzať tehličky (môže ich byť aj viac na sebe)
-
 niektoré políčka (aj s tehličkami) sa dajú zasvietiť, resp. zhasnúť (políčka majú svoju lampu, a predstavte si, že tehličky sú polopriesvitné)
-
 robot sa pohybuje len v rámci svojej štvorcovej siete týmito príkazmi:
 
-l, p = otočí sa vľavo, resp. vpravo o 90 stupňov
-
-k = urobí krok dopredu, ale len vtedy, ak je toto políčko v rovnakej výške ako to, na ktorom stojí
-
-s = skočí na políčko pred sebou, ale len vtedy, ak je buď o jedna vyššie alebo ľubovoľne (aspoň o 1) nižšie
-
-z = zasvieti, resp. zhasne políčko pod sebou (len ak má toto políčko svoju lampu)
+- l, p = otočí sa vľavo, resp. vpravo o 90 stupňov
+- k = urobí krok dopredu, ale len vtedy, ak je toto políčko v rovnakej výške ako to, na ktorom stojí
+- s = skočí na políčko pred sebou, ale len vtedy, ak je buď o jedna vyššie alebo ľubovoľne (aspoň o 1) nižšie
+- z = zasvieti, resp. zhasne políčko pod sebou (len ak má toto políčko svoju lampu)
 
 Trieda LightBot:
 
