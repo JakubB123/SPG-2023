@@ -1,8 +1,8 @@
 from ClassLightBot import *
 
-r = LightBot('subor1.txt', (3, 4, 2))
+r = LightBot('subor3.txt', (3, 4, 2))
 print(r)
-r.rob('kkpkkkzlk')
+r.rob('kkpkkklslk')
 print(r.robot())
 print(r)
 print(r.kolko())
